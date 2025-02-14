@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html ,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/29431460/pexels-photo-29431460/free-photo-of-fishing-vessel-in-the-atlantic-near-faroe-islands.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:40px;
+}
+nav h2{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+nav i{
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+}
+#full{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.47);
+    backdrop-filter:blur(10px);
+    padding: 130px 70px;
+    right: -40%;
+}
+#full h4{
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 15px;
+}
+
+#full i{
+    font-size: 25px;
+    top: 5%;
+    right: 10%;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
